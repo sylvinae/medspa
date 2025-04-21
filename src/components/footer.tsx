@@ -3,10 +3,10 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#F9F7F3] py-10 px-12">
-      <div className="mx-auto flex justify-between items-center">
-        {/* Left-aligned Logo (Matching Header Alignment) */}
-        <div className="w-[220px] flex-shrink-0">
+    <footer className="bg-[#F9F7F3] py-10 px-4 sm:px-6 lg:px-12">
+      <div className="mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-10 md:gap-0">
+        {/* Logo */}
+        <div className="w-[180px] sm:w-[220px] flex-shrink-0">
           <StaticImage
             src="../../assets/images/logo.png"
             alt="The Skin Etiquette Medspa Logo"
@@ -18,11 +18,13 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="flex space-x-24 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 mt-8 md:mt-0">
           {/* Shops Column */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">Shops</h3>
-            <ul className="mt-2 text-gray-700 space-y-1">
+            <h3 className="text-base sm:text-lg font-semibold text-gray-900">
+              Shops
+            </h3>
+            <ul className="mt-2 text-gray-700 space-y-1 text-sm sm:text-base">
               <li>Products</li>
               <li>Membership Programs</li>
               <li>E-Gift Card</li>
@@ -32,10 +34,10 @@ const Footer: React.FC = () => {
 
           {/* Patient Resources Column */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">
+            <h3 className="text-base sm:text-lg font-semibold text-gray-900">
               Patient Resources
             </h3>
-            <ul className="mt-2 text-gray-700 space-y-1">
+            <ul className="mt-2 text-gray-700 space-y-1 text-sm sm:text-base">
               <li>Patient Portal</li>
               <li>Promotions, seasonal deals, etc</li>
               <li>Clinic Policies</li>

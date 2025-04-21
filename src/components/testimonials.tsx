@@ -1,7 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
+import { FaStar } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 const testimonials = [
   {
@@ -50,49 +52,102 @@ const testimonials = [
   },
 ];
 
+const avatarColors = ["bg-red-500", "bg-green-500", "bg-violet-500"];
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: { slidesToShow: 2 },
+    },
+    {
+      breakpoint: 640,
+      settings: { slidesToShow: 1 },
+    },
+  ],
+};
+
 const Testimonials: React.FC = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    centerMode: true,
-    centerPadding: "0",
-    dotsClass: "slick-dots flex justify-center items-center space-x-3 mt-6",
-  };
-
   return (
-    <section className="bg-[#C1A3AD] py-[6rem] px-6 text-center min-h-[20rem] flex items-center">
-      <div className="max-w-5xl mx-auto w-full">
-        {/* Section Title */}
-        <h2 className="text-5xl font-bold text-[#222] font-[Cormorant]">
-          HOW WAS YOUR EXPERIENCE?
-        </h2>
-        <div className="w-[15rem] h-[3px] bg-[#B69159] mx-auto mt-3"></div>
+    <section className="bg-[#C1A3AD] py-12 sm:py-24 px-4 sm:px-6 text-center min-h-screen flex items-center">
+      <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6">
+        <div className="text-center text-white">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-[Cormorant] font-bold leading-tight text-white max-w-2xl mx-auto">
+            The Skin Etiquette MedSpa’s Rave Reviews: A Must-Read
+          </h2>
 
-        {/* Testimonial Slider */}
-        <Slider {...settings} className="mt-2 py-5 w-auto mx-auto">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="w-auto mx-auto flex flex-col justify-center h-[25rem]"
-            >
-              {testimonial.text.split("<br />").map((line, i) => (
-                <div
-                  key={i}
-                  className="mb-6 text-lg italic text-[#3B2C27] leading-relaxed tracking-wide whitespace-normal"
-                >
-                  {`"${line}"`}
-                </div>
+          <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-lg sm:text-xl font-medium text-white text-center sm:text-left">
+            {/* Google Icon */}
+            <StaticImage
+              src="../../assets/images/google-icon.webp"
+              alt="Google"
+              className="w-10 h-6"
+            />
+
+            {/* Rating */}
+            <span>
+              Google Rating: <span className="font-bold text-xl">5.0</span>
+            </span>
+
+            {/* Stars */}
+            <div className="flex text-yellow-400 text-xl">
+              {[...Array(5)].map((_, i) => (
+                <FaStar key={i} className="text-[16px]" />
               ))}
-              <p className="mt-6 font-semibold text-[#3B2C27]">
-                - {testimonial.name}
-              </p>
+            </div>
+
+            {/* Review Count */}
+            <span className="text-lg sm:text-xl">– 10 Reviews</span>
+          </div>
+        </div>
+
+        <Slider {...settings} className="mt-10">
+          {testimonials.map((review, i) => (
+            <div className="px-2 sm:px-4 py-8 sm:py-10">
+              <div className="p-4 sm:p-6 bg-white rounded-xl shadow-md h-full flex flex-col justify-between text-left">
+                <div className="flex items-start gap-4">
+                  {/* Avatar */}
+                  <div
+                    className={`min-w-[48px] h-[48px] rounded-full text-white flex items-center justify-center font-bold text-base shadow-sm ${
+                      avatarColors[i % avatarColors.length]
+                    }`}
+                  >
+                    {review.name.charAt(0)}
+                  </div>
+
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-1 text-yellow-500 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <FaStar key={i} className="text-[16px]" />
+                      ))}
+                    </div>
+                    <p
+                      className="text-gray-700 text-[15px] leading-relaxed line-clamp-4"
+                      dangerouslySetInnerHTML={{
+                        __html: `“${review.text.split("<br />")[0]}...”`,
+                      }}
+                    ></p>
+                  </div>
+                </div>
+
+                {/* Bottom (unchanged) */}
+                <div className="mt-4 text-sm text-gray-600">
+                  <p className="font-medium">{review.name}</p>
+                  <a
+                    href="https://www.google.com/search?sca_esv=b10adade04a8c5e3&sxsrf=AHTn8zpGbt-vD968zlsd7jmZS2VTQKq47Q:1745229365557&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzTrV3aURApsw4ii7ZOi7gFmhwKuvjBzj69h8j-8Sr1ZAZreONJ2gGOHylEsTH8zmqju0IXeJuM21ZxaVccpSEGL9YSBWptz_TPkpbG_HWwvjRrRNrA%3D%3D&q=The+Skin+Etiquette+MedSpa+Reviews&sa=X&ved=2ahUKEwiRzYqD7uiMAxWwTmwGHcJeFMMQ0bkNegQIMBAE&biw=1680&bih=906&dpr=2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline mt-1 inline-block"
+                  >
+                    Read full review →
+                  </a>
+                </div>
+              </div>
             </div>
           ))}
         </Slider>
