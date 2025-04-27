@@ -8,11 +8,11 @@ import {
 
 const ContactUs: React.FC = () => {
   return (
-    <section className="bg-[#2C2429] text-[#D3D3D3] py-[5rem] px-4 sm:px-6 lg:px-[5rem]">
+    <section className="bg-[#26202E] text-white py-[5rem] px-4 sm:px-6 lg:px-[5rem]">
       <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 items-center">
         {/* Left Side - Contact Info + Map */}
         <div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-[Cormorant] tracking-widest text-[#F6F6D7]">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-[Cormorant] tracking-widest text-white">
             CONTACT US
           </h2>
 
