@@ -3,22 +3,24 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#F9F7F3] py-10 px-4 sm:px-6 lg:px-12">
-      <div className="mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-10 md:gap-0">
+    <footer className="bg-[#bfafa0] py-10 px-4 sm:px-6 lg:px-12">
+      <div className="mx-auto  flex flex-col md:flex-row justify-between items-start gap-10 md:gap-0">
         {/* Logo */}
-        <div className="w-[180px] sm:w-[220px] flex-shrink-0">
-          <StaticImage
-            src="../../assets/images/logo.png"
-            alt="The Skin Etiquette Medspa Logo"
-            placeholder="blurred"
-            layout="fixed"
-            width={280}
-            height={80}
-          />
+        <div className="w-auto">
+          <div className="max-w-[220px]">
+            <StaticImage
+              src="../../assets/images/logo.png"
+              alt="The Skin Etiquette Medspa Logo"
+              placeholder="blurred"
+              layout="constrained"
+              width={220}
+              height={70}
+            />
+          </div>
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 mt-8 md:mt-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 text-left">
           {/* Shops Column */}
           <div>
             <h3 className="text-base sm:text-lg font-semibold text-gray-900">

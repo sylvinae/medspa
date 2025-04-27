@@ -20,7 +20,7 @@ const Header: React.FC = () => {
   return (
     <header
       className={`fixed top-0 left-0 z-30 w-full transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md" : "bg-transparent"
+        scrolled ? "bg-[#bfafa0] shadow-md" : "bg-transparent"
       }`}
     >
       <Promo />

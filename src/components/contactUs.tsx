@@ -19,8 +19,15 @@ const ContactUs: React.FC = () => {
           {/* Contact Details */}
           <div className="mt-6 space-y-3 text-base sm:text-lg text-[#D3D3D3] leading-relaxed">
             <p>
-              <strong>Phone:</strong> 510-935-8385
+              <strong>Phone:</strong>{" "}
+              <a
+                href="tel:9252321759"
+                className="text-[#05D6F5] hover:underline"
+              >
+                925-232-1759
+              </a>
             </p>
+
             <p className="flex flex-col sm:flex-row sm:items-center sm:space-x-2">
               <strong>Email:</strong>
               <a

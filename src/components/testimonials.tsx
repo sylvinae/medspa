@@ -74,10 +74,10 @@ const settings = {
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="bg-[#C1A3AD] py-12 sm:py-24 px-4 sm:px-6 text-center min-h-screen flex items-center">
+    <section className="bg-[#c6b7b4] py-12 sm:py-24 px-4 sm:px-6 text-center min-h-screen flex items-center">
       <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6">
         <div className="text-center text-white">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-[Cormorant] font-bold leading-tight text-white max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-[Cormorant] font-bold leading-tight text-black max-w-2xl mx-auto">
             The Skin Etiquette MedSpa’s Rave Reviews: A Must-Read
           </h2>
 
