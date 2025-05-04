@@ -5,23 +5,23 @@ import * as React from "react";
 const promos = [
   {
     title: "Let’s Glow!",
-    text: "Enjoy up to 35% off select skin & hair treatments — this month only!",
+    text: "Let’s Glow! Enjoy up to 35% off select skin & hair treatments — this month only!",
   },
   {
     title: "Wrinkle-Free, Worry-Free",
-    text: "Get $4 off per unit of Botox/Xeomin (minimum 40 units) — this month only! ✨",
+    text: "Wrinkle-Free, Worry-Free: Get $3 off per unit of Botox/Xeomin (minimum 40 units) —this month only! ✨",
   },
   {
     title: "Invest in Timeless Beauty",
-    text: "Pre-purchase 100 units of Xeomin for $1000 — offer ends 4/10/25. Gracefully planned. Perfectly priced. ✨",
+    text: "Beauty Bank for Xeomin. Pre-purchase 300 units of Xeomin for $3000. This month only!Gracefully planned. Perfectly priced. ✨",
   },
   {
     title: "Pout Perfection",
-    text: "Get $100 off Lip Filler — this month only! 💋",
+    text: "Pout Perfection: Get $100 off Lip Filler — this month only! 💋",
   },
   {
     title: "Sculpt Smarter",
-    text: "Buy 5 Liquid Lipo treatments, get 1 free — this month only! ✨",
+    text: "Sculpt Smarter: Buy 5 Liquid Lipo treatments, get 1 free Body RF. — this month only! ✨",
   },
 ];
 

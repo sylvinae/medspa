@@ -39,7 +39,7 @@ const Homepage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-[#C1A3AD] py-[10rem] px-6 text-center">
+      <section className="bg-[#c6b7b4] py-[10rem] px-6 text-center">
         <h2 className="text-6xl font-bold text-[#222] font-[Cormorant] uppercase">
           Your Skin, Your Story, Perfectly Polished
         </h2>
