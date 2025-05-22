@@ -15,7 +15,19 @@ const config: GatsbyConfig = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/assets/images/`, // Adjust the path to your image directory
+        path: `${__dirname}/assets/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `MedSpa`,
+        short_name: `MedSpa`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#C6A79F`,
+        display: `standalone`,
+        icon: `assets/images/logo.png`, // ✅ your favicon path
       },
     },
   ],

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "neuromodulator",
+    "title": "Neuromodulator (Botox / Xeomin)",
+    "description": "Smooth away fine lines and wrinkles with our expertly administered Botox treatments. Perfect for targeting areas like crow\u2019s feet, forehead lines, and frown lines. Neurotoxin relaxes facial muscles to provide a refreshed and youthful appearance. Ideal for both preventative care and correcting existing wrinkles, results are subtle and natural-looking.",
+    "indications": [
+      "Treatment of fine lines and wrinkles (e.g., forehead lines, crow's feet, frown lines).",
+      "Preventative care for younger clients looking to delay the formation of wrinkles."
+    ],
+    "benefits": [
+      "Smooths and relaxes dynamic wrinkles caused by repetitive facial muscle movement.",
+      "Provides a refreshed and youthful appearance with minimal downtime."
+    ],
+    "mechanism": "Botox is a neurotoxin that temporarily blocks nerve signals, relaxing the muscles responsible for wrinkles. It helps to prevent the formation of new wrinkles by limiting muscle contraction.",
+    "candidate": [
+      "Individuals 18+ looking for preventative care or to treat existing fine lines and wrinkles.",
+      "Those without neuromuscular disorders (contraindications)."
+    ],
+    "cta": "Book your Tox consultation today and experience the subtle, stunning results!",
+    "image": "path/to/image-botox.jpg"
+  },
+  {
+    "id": "microneedling",
+    "title": "Microneedling",
+    "description": "Revitalize your skin with microneedling, a minimally invasive treatment that stimulates collagen production to improve skin texture, tone, and elasticity. Perfect for reducing fine lines, acne scars, and enlarged pores, this procedure will reveal smoother, more radiant skin.",
+    "indications": [
+      "Fine lines, acne scars, enlarged pores, and uneven skin texture."
+    ],
+    "benefits": [
+      "Stimulates collagen production for smoother, firmer skin.",
+      "Reduces the appearance of scarring, hyperpigmentation, and skin texture irregularities."
+    ],
+    "mechanism": "Tiny needles are used to create controlled micro-injuries in the skin, prompting the body\u2019s natural healing process and collagen production.",
+    "candidate": [
+      "Those with dull skin, fine lines, scarring, or uneven texture.",
+      "Not recommended for active acne, eczema, or skin infections."
+    ],
+    "cta": "Discover the magic of microneedling\u2014book your session now for glowing, youthful skin!",
+    "image": "path/to/image-microneedling.jpg"
+  },
+  {
+    "id": "microneedling-prf",
+    "title": "Microneedling with PRF",
+    "description": "Enhance your skin\u2019s natural healing with microneedling combined with Platelet-Rich Fibrin (PRF). This advanced treatment uses your body\u2019s own growth factors to boost collagen production, improve texture, and rejuvenate your skin for long-lasting, natural results.",
+    "indications": [
+      "Same as microneedling, plus improvement of skin elasticity and rejuvenation."
+    ],
+    "benefits": [
+      "PRF enhances healing and collagen stimulation with natural growth factors from your blood.",
+      "Improves skin texture and tone, reduces hyperpigmentation, and tightens the skin."
+    ],
+    "mechanism": "PRF is extracted from your blood and applied to the treated area after microneedling to boost healing and collagen production.",
+    "candidate": [
+      "Clients looking for natural rejuvenation and healing.",
+      "Ideal for those with fine lines or acne scars looking for deeper rejuvenation."
+    ],
+    "cta": "Unlock the power of your skin\u2019s healing\u2014book your microneedling with PRF today!",
+    "image": "path/to/image-prf.jpg"
+  },
+  {
+    "id": "microneedling-exosome",
+    "title": "Microneedling with Exosome Therapy",
+    "description": "Take your microneedling results to the next level with Exosome Therapy. This cutting-edge treatment delivers growth factors, peptides, and anti-inflammatory molecules directly to your skin, enhancing healing, reducing redness, and leaving you with radiant, youthful skin.",
+    "indications": [
+      "Acne scars, fine lines, uneven skin tone, wrinkles, and post-inflammatory hyperpigmentation."
+    ],
+    "benefits": [
+      "Faster healing, enhanced skin regeneration, and reduced redness using Exosomes (tiny vesicles that deliver peptides, growth factors, and anti-inflammatory molecules)."
+    ],
+    "mechanism": "Exosomes are applied after microneedling to improve skin regeneration, promote faster healing, and reduce redness and inflammation.",
+    "candidate": [
+      "Individuals with acne scars, uneven skin tone, and aging skin.",
+      "Those seeking accelerated healing and improved skin radiance."
+    ],
+    "cta": "Glow like never before\u2014schedule your microneedling with Exosomes today!",
+    "image": "path/to/image-exosome.jpg"
+  },
+  {
+    "id": "microneedling-rejuran",
+    "title": "Microneedling with Rejuran (Salmon DNA)",
+    "description": "Revitalize and nourish your skin with microneedling infused with Salmon DNA (Rejuran). This innovative treatment hydrates deeply, improves elasticity, and regenerates skin for a smoother, firmer complexion\u2014perfect for reducing fine lines and dullness.",
+    "indications": [
+      "Fine lines, dull skin, uneven texture, and loss of elasticity."
+    ],
+    "benefits": [
+      "Deep hydration, improved skin elasticity, and regeneration for smoother, firmer skin.",
+      "Salmon DNA (Rejuran) boosts skin\u2019s natural healing and regenerative processes."
+    ],
+    "mechanism": "Salmon DNA is a potent ingredient that helps hydrate and stimulate collagen production, working synergistically with microneedling to enhance results.",
+    "candidate": [
+      "Anyone looking for skin rejuvenation or improvement of skin elasticity and radiance.",
+      "Clients with dull skin or fine lines."
+    ],
+    "cta": "Experience the future of skin rejuvenation\u2014book your Microneedling with Salmon DNA treatment now!",
+    "image": "path/to/image-rejuran.jpg"
+  },
+  {
+    "id": "chemical-peels",
+    "title": "Chemical Peels (Luminous Glow, Cosmelan, Body Bright, etc.)",
+    "description": "Rejuvenate your skin with a tailored chemical peel that exfoliates and promotes cell turnover. From brightening sunspots to reducing fine lines, chemical peels target a variety of skin concerns, leaving you with a smoother, refreshed, and radiant complexion.",
+    "indications": [
+      "Uneven skin tone, hyperpigmentation, fine lines, sun damage, and dull skin."
+    ],
+    "benefits": [
+      "Exfoliates the skin, boosts cell turnover, and improves skin texture and tone.",
+      "Reduces pigmentation and brightens the complexion."
+    ],
+    "mechanism": "Chemical agents (e.g., glycolic acid, salicylic acid) exfoliate the skin and promote the growth of new, healthy skin cells.",
+    "candidate": [
+      "Those with hyperpigmentation, sun spots, fine lines, or uneven skin tone.",
+      "Clients not actively experiencing skin irritation or open wounds."
+    ],
+    "cta": "Reveal your brightest skin yet\u2014book your chemical peel today!",
+    "image": "path/to/image-chemicalpeels.jpg"
+  },
+  {
+    "id": "skinvive",
+    "title": "Skinvive",
+    "description": "Achieve deeply hydrated, radiant skin with Skinvive, an injectable treatment that infuses hyaluronic acid into your skin for enhanced hydration, elasticity, and smoothness. Perfect for a natural, glowing complexion.",
+    "indications": [
+      "Dry skin, loss of elasticity, fine lines, and overall skin hydration."
+    ],
+    "benefits": [
+      "Enhances skin hydration, elasticity, and smoothness using hyaluronic acid.",
+      "Provides a natural, dewy glow with long-lasting hydration."
+    ],
+    "mechanism": "Hyaluronic acid is injected into the skin to improve moisture retention, leading to smoother and more youthful skin.",
+    "candidate": [
+      "Those looking for hydration and skin rejuvenation, especially individuals with dry or mature skin."
+    ],
+    "cta": "Get glowing skin with Skinvive\u2014schedule your appointment now for refreshed, radiant skin!",
+    "image": "path/to/image-skinvive.jpg"
+  },
+  {
+    "id": "skin-growth-removal",
+    "title": "Skin Growth Removal",
+    "description": "Safely remove benign skin growths like skin tags and warts with electrocautery, a precise and effective treatment that smooths your skin with minimal downtime. Feel confident and blemish-free in no time!",
+    "indications": [
+      "Skin tags, warts, and other benign skin growths."
+    ],
+    "benefits": [
+      "Quick and precise treatment with minimal discomfort and downtime."
+    ],
+    "mechanism": "Electrocautery uses a high-frequency electrical current to remove unwanted growths and smooth the skin.",
+    "candidate": [
+      "Individuals with benign skin growths (such as skin tags or warts) that want a quick, effective solution."
+    ],
+    "cta": "Book your skin growth removal treatment today and enjoy flawless, smooth skin!",
+    "image": "path/to/image-skingrowth.jpg"
+  },
+  {
+    "id": "hair-regrowth-prf",
+    "title": "Hair Regrowth Stimulation with PRF",
+    "description": "Stimulate hair growth naturally with PRF Hair Restoration. This non-surgical treatment uses your body\u2019s own growth factors to revitalize hair follicles, promoting thicker, healthier hair and improving overall hair quality.",
+    "indications": [
+      "Hair thinning, early-stage hair loss, and scalp rejuvenation."
+    ],
+    "benefits": [
+      "PRF enhances the health of hair follicles, promoting stronger, thicker hair.",
+      "Non-surgical solution for those experiencing early hair thinning or improving overall hair quality."
+    ],
+    "mechanism": "Platelet-Rich Fibrin from your blood is injected into the scalp, where it stimulates hair follicles to encourage hair regrowth.",
+    "candidate": [
+      "Individuals with early-stage hair thinning or those looking to improve hair quality."
+    ],
+    "cta": "Restore your hair naturally\u2014book your PRF Hair Restoration session today!",
+    "image": "path/to/image-hairprf.jpg"
+  },{
+    "id": "virtual-consultation",
+    "title": "Virtual Consultation",
+    "description": "Not sure where to start? Our complimentary 15-minute virtual consultation is the perfect way to learn more about the treatments and services we offer. During this session, we\u2019ll discuss your goals and give you an overview of the options available to you. Please note, treatment eligibility will be determined during an in-person visit.",
+    "indications": [
+      "Ideal for clients seeking an introduction to our services or those unsure of which treatments are right for them.",
+      "Great for people who want to explore options before committing to in-person consultations or treatments."
+    ],
+    "benefits": [
+      "Quick and convenient way to explore treatment options.",
+      "Get an overview of the treatments that will best meet your goals without the need for an immediate in-office visit."
+    ],
+    "candidate": [
+      "New clients looking for an overview of available services and to get an understanding of what treatments might work best for them."
+    ],
+    "cta": "Not sure where to start? Book your free virtual consultation today and get expert advice on your skincare journey!",
+    "image": "path/to/image-virtual.jpg"
+  },
+  {
+    "id": "in-office-consultation",
+    "title": "In-Office Consultation",
+    "description": "During this 45-minute session, we\u2019ll assess your skin, discuss your concerns, and create a customized year-long treatment plan tailored to your needs. We\u2019ll also review pricing, payment options, and answer any questions you have. The fee for the consultation is $50, which will be applied toward any treatment or product purchased on the same day.",
+    "indications": [
+      "Ideal for individuals who want personalized recommendations based on their unique skin concerns and goals.",
+      "Suitable for clients ready to start their skincare or aesthetic journey with a tailored approach."
+    ],
+    "benefits": [
+      "Get a personalized treatment plan designed specifically for your skin\u2019s needs.",
+      "Receive expert guidance on treatment options and the best path forward to meet your goals."
+    ],
+    "candidate": [
+      "Individuals looking for a comprehensive skin assessment and a customized plan that addresses their personal needs and concerns."
+    ],
+    "cta": "Ready to take the next step? Book your in-office consultation today and start your journey to perfectly polished skin!",
+    "image": "path/to/image-office.jpg"
+  },
+  {
+    "id": "weight-management",
+    "title": "Weight Management Program",
+    "description": "Achieve your weight management goals with our personalized, medically supervised weight loss program. Using advanced medications like tirzepatide, this program helps regulate appetite, improve metabolism, and promote sustainable results. Our program is tailored to your unique needs with comprehensive support to help you succeed.",
+    "indications": [
+      "Individuals struggling with weight loss, appetite control, or those looking to improve metabolism.",
+      "Ideal for clients seeking a medically supervised approach to weight loss and overall wellness."
+    ],
+    "benefits": [
+      "Regulates appetite and improves metabolism with the use of advanced medications.",
+      "Provides sustainable results through ongoing support and guidance."
+    ],
+    "mechanism": "Semaglutide and Tirzepatide work by targeting the hormones that regulate appetite and metabolism, leading to natural weight loss and improved metabolic function.",
+    "candidate": [
+      "Those looking for a medically supervised weight loss program to manage appetite, support weight loss, and improve overall metabolism."
+    ],
+    "cta": "Take the first step towards a healthier you\u2014book your weight management consultation today!",
+    "image": "path/to/image-weight.jpg"
+  }, {
+    "id": "dermal-fillers",
+    "title": "Dermal Fillers",
+    "description": "Restore lost volume and define your facial contours with our expertly administered dermal fillers. From plumping lips to smoothing deep lines, fillers deliver natural, youthful results, giving you a refreshed appearance with no downtime.",
+    "indications": [
+      "Restoring lost volume and enhancing facial contours.",
+      "Ideal for plumping lips, smoothing deep lines, and improving facial volume."
+    ],
+    "benefits": [
+      "Restores volume and smooths deep lines for a youthful, rejuvenated look.",
+      "Enhances facial definition with minimal downtime and long-lasting results."
+    ],
+    "mechanism": "Dermal fillers, such as Juvederm and Restylane, are injected into the skin to restore lost volume and smooth out wrinkles, leaving you with a natural, refreshed look.",
+    "candidate": [
+      "Ideal for clients looking to address facial volume loss, smooth deep wrinkles, or enhance lip fullness."
+    ],
+    "cta": "Achieve natural, youthful volume\u2014book your dermal filler consultation today!",
+    "image": "path/to/image-fillers.jpg"
+  },
+  {
+    "id": "rf-microneedling",
+    "title": "RF Microneedling (Face and Body)",
+    "description": "Experience the next level of skin rejuvenation with RF Microneedling. Combining the power of radiofrequency energy and microneedling, this treatment stimulates collagen production, tightens skin, reduces fine lines, and improves texture. Perfect for acne scars, wrinkles, and uneven skin tone, it\u2019s suitable for most skin types with minimal downtime.",
+    "indications": [
+      "Wrinkles, acne scars, uneven skin tone, skin tightening."
+    ],
+    "benefits": [
+      "Stimulates collagen production to tighten skin, reduce fine lines, and improve texture.",
+      "Reduces acne scars, wrinkles, and uneven tone for smoother, firmer skin."
+    ],
+    "mechanism": "Microneedling creates tiny channels in the skin, and radiofrequency energy is applied to the deeper layers to promote collagen production and tighten the skin.",
+    "candidate": [
+      "Those looking to treat acne scars, fine lines, skin laxity, and uneven texture."
+    ],
+    "cta": "Achieve smoother, firmer skin with RF Microneedling\u2014book your session today!",
+    "image": "path/to/image-rfmicroneedling.jpg"
+  },
+  {
+    "id": "aquafacial",
+    "title": "Aquafacial",
+    "description": "Revitalize and hydrate your skin with Aquafacial, a non-invasive treatment that exfoliates, extracts impurities, and infuses nourishing serums for deep hydration and glowing skin. Perfect for anyone looking to refresh their complexion.",
+    "indications": [
+      "Dull skin, dehydration, uneven texture, and impurities."
+    ],
+    "benefits": [
+      "Deeply hydrates and nourishes the skin for a radiant glow.",
+      "Exfoliates, removes impurities, and improves overall skin texture."
+    ],
+    "mechanism": "The Aquafacial treatment uses a combination of exfoliation, extraction, and serum infusion to cleanse, hydrate, and rejuvenate the skin.",
+    "candidate": [
+      "Anyone looking for a quick refresh, deep hydration, and a natural glowing complexion."
+    ],
+    "cta": "Give your skin the hydration it deserves\u2014book your Aquafacial today!",
+    "image": "path/to/image-aquafacial.jpg"
+  },{
+    "id": "vitamin-injections",
+    "title": "Vitamin Injections (B12, Glutathione, NAD)",
+    "description": "Enhance your wellness with targeted vitamin injections. Options include B12 for energy, Glutathione for detoxification and skin brightening, and NAD for anti-aging and cellular repair. These quick treatments are the perfect addition to your beauty regimen.",
+    "indications": [
+      "Fatigue, skin brightness, detox, anti-aging, and cellular repair."
+    ],
+    "benefits": [
+      "B12 boosts energy levels and metabolism.",
+      "Glutathione detoxifies the body and brightens the skin.",
+      "NAD supports anti-aging and cellular repair."
+    ],
+    "mechanism": "Each vitamin injection delivers targeted benefits, directly addressing energy levels, detoxification, or anti-aging needs at the cellular level.",
+    "candidate": [
+      "Anyone looking to enhance their wellness, increase energy, and improve their overall health and appearance."
+    ],
+    "cta": "Boost your energy and glow\u2014book your vitamin injection today!",
+    "image": "path/to/image-vitamins.jpg"
+  },
+  {
+    "id": "pico-laser",
+    "title": "Pico Laser",
+    "description": "Achieve clearer, smoother skin with Pico Laser, a non-invasive treatment that targets pigmentation, skin texture, and overall skin tone for a vibrant, refreshed complexion.",
+    "indications": [
+      "Pigmentation, uneven skin tone, and skin texture."
+    ],
+    "benefits": [
+      "Targets and treats skin pigmentation, uneven texture, and enhances overall complexion."
+    ],
+    "candidate": [
+      "Those with pigmentation concerns or looking to improve overall skin tone."
+    ],
+    "cta": "Achieve vibrant, clear skin\u2014book your Pico Laser consultation today!",
+    "image": "path/to/image-pico.jpg"
+  },
+  {
+    "id": "sculptra",
+    "title": "Sculptra",
+    "description": "Stimulate collagen production and improve skin elasticity with Sculptra, a long-lasting injectable that gradually restores volume and improves skin texture. Ideal for addressing areas of volume loss and enhancing skin texture over time.",
+    "indications": [
+      "Volume loss, skin elasticity, and improved skin texture."
+    ],
+    "benefits": [
+      "Stimulates collagen production for natural volume restoration and skin improvement."
+    ],
+    "candidate": [
+      "Individuals looking for gradual volume restoration and improved skin elasticity."
+    ],
+    "cta": "Book a consultation today to learn more about Sculptra!",
+    "comingSoon": true,
+    "image": "path/to/image-sculptra.jpg"
+  },
+  {
+    "id": "hyperdilute-radiesse",
+    "title": "Hyperdilute Radiesse",
+    "description": "Smooth fine lines, tighten skin, and improve overall skin quality with Hyperdilute Radiesse, an injectable that stimulates collagen and elastin production for gradual, long-lasting rejuvenation.",
+    "indications": [
+      "Fine lines, skin tightening, and improving skin quality."
+    ],
+    "benefits": [
+      "Gradual collagen stimulation for smoother, firmer skin."
+    ],
+    "candidate": [
+      "Those seeking non-surgical skin tightening and long-lasting rejuvenation."
+    ],
+    "cta": "Get firm, youthful skin\u2014book your Hyperdilute Radiesse consultation today!",
+    "comingSoon": true,
+    "image": "path/to/image-radiesse.jpg"
+  }
+
+]

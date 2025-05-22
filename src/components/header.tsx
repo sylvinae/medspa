@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Promo from "./promo";
+import { navigate } from "gatsby";
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -46,7 +47,16 @@ const Header: React.FC = () => {
               scrolled ? "text-black" : "text-white"
             }`}
           >
-            <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
+            <button
+              onClick={() => navigate("/")}
+              className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]"
+            >
+              HOME
+            </button>
+            <button
+              onClick={() => navigate("/services")}
+              className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]"
+            >
               SERVICES
             </button>
             <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
@@ -54,9 +64,6 @@ const Header: React.FC = () => {
             </button>
             <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
               ABOUT US
-            </button>
-            <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
-              PATIENT RESOURCES
             </button>
 
             <a
