@@ -4,11 +4,16 @@ import { StaticImage } from "gatsby-plugin-image";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Promo from "./promo";
+import { useLocation } from "@reach/router";
 import { navigate } from "gatsby";
 
 const Header: React.FC = () => {
+  const location = useLocation();
+  const isServicesPage = location.pathname === "/services/";
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  console.log("asd", location.pathname);
 
   React.useEffect(() => {
     const onScroll = () => {
@@ -27,17 +32,18 @@ const Header: React.FC = () => {
       <Promo />
 
       {/* Main Header */}
-      <div className="w-full bg-transparent py-4 px-6 md:px-12 flex items-center justify-between ">
-        {/* Logo */}
+      <div className="w-full bg-transparent py-4 px-6 md:px-12 flex items-center justify-between">
         <div className="w-[180px] md:w-[220px] flex-shrink-0">
-          <StaticImage
-            src="../../assets/images/logo.png"
-            alt="The Skin Etiquette Medspa Logo"
-            placeholder="blurred"
-            layout="fixed"
-            width={220}
-            height={70}
-          />
+          <div className={isServicesPage ? "" : "filter invert"}>
+            <StaticImage
+              src="../../assets/images/logo.png"
+              alt="The Skin Etiquette Medspa Logo"
+              placeholder="blurred"
+              layout="fixed"
+              width={220}
+              height={70}
+            />
+          </div>
         </div>
 
         {/* Desktop Nav */}
@@ -59,10 +65,13 @@ const Header: React.FC = () => {
             >
               SERVICES
             </button>
-            <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
+            {/* <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
               SHOP
-            </button>
-            <button className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]">
+            </button> */}
+            <button
+              onClick={() => navigate("/about-us")}
+              className="tracking-wide uppercase font-medium text-sm sm:text-base transition-all duration-200 hover:text-[#C6A79F]"
+            >
               ABOUT US
             </button>
 

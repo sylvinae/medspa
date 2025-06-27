@@ -54,45 +54,120 @@ const ServicesPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Services List */}
       <section className="bg-white py-20 px-6 sm:px-10">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl sm:text-5xl font-[Cormorant] font-bold mb-6 text-[#1C1C1C]">
-            SERVICES
-          </h2>
-          <p className="text-sm sm:text-base text-gray-500 mb-10">
-            Click on a service below to see details.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 sm:gap-y-2 text-left text-[#1C1C1C] font-light tracking-wide">
-            {services.map((item, index) => {
-              const isSelected = selectedId === item.id;
-              return (
-                <p
-                  key={item.id}
-                  className={`text-sm sm:text-base leading-relaxed transition-all duration-200 px-2 py-1 rounded-md ${
-                    item.comingSoon
-                      ? "opacity-50 cursor-not-allowed"
-                      : "cursor-pointer hover:bg-[#f4f4f4]"
-                  } ${
-                    isSelected
-                      ? "bg-[#f1e9e6] font-medium border-l-4 border-[#c6a79f]"
-                      : ""
-                  }`}
-                  onClick={() => !item.comingSoon && handleSelect(item.id)}
-                >
-                  <span className="mr-2 text-gray-500">{index + 1}.</span>
-                  <span className="underline underline-offset-4 hover:text-[#c6a79f]">
-                    {item.title}
-                    {item.comingSoon && (
-                      <span className="ml-1 text-xs text-red-500">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left text-[#1C1C1C]">
+          {/* Injectables */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 border-b border-gray-300 pb-2">
+              Injectables
+            </h3>
+            <ul className="space-y-3">
+              {services
+                .filter((s) =>
+                  [
+                    "neuromodulator",
+                    "dermal-fillers",
+                    "skinvive",
+                    "liquid-lipo",
+                  ].includes(s.id)
+                )
+                .map((s) => (
+                  <li
+                    key={s.id}
+                    className={`p-3 rounded-lg transition hover:shadow-md cursor-pointer ${
+                      s.comingSoon ? "opacity-50 cursor-not-allowed" : ""
+                    }`}
+                    onClick={() => !s.comingSoon && handleSelect(s.id)}
+                  >
+                    <span className="hover:underline underline-offset-4">
+                      {s.title}
+                    </span>
+                    {s.comingSoon && (
+                      <span className="ml-2 text-xs text-red-500">
                         (coming soon)
                       </span>
                     )}
-                  </span>
-                </p>
-              );
-            })}
+                  </li>
+                ))}
+            </ul>
+          </div>
+
+          {/* Skin & Hair */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 border-b border-gray-300 pb-2">
+              Skin & Hair
+            </h3>
+            <ul className="space-y-3">
+              {services
+                .filter((s) =>
+                  [
+                    "microneedling",
+                    "rf-microneedling",
+                    "chemical-peels",
+                    "microneedling-prf",
+                    "microneedling-exosome",
+                    "microneedling-rejuran",
+                    "skin-growth-removal",
+                    "hair-regrowth-prf",
+                    "pico-laser",
+                    "aquafacial",
+                  ].includes(s.id)
+                )
+                .map((s) => (
+                  <li
+                    key={s.id}
+                    className={`p-3 rounded-lg transition hover:shadow-md cursor-pointer ${
+                      s.comingSoon ? "opacity-50 cursor-not-allowed" : ""
+                    }`}
+                    onClick={() => !s.comingSoon && handleSelect(s.id)}
+                  >
+                    <span className="hover:underline underline-offset-4">
+                      {s.title}
+                    </span>
+                    {s.comingSoon && (
+                      <span className="ml-2 text-xs text-red-500">
+                        (coming soon)
+                      </span>
+                    )}
+                  </li>
+                ))}
+            </ul>
+          </div>
+
+          {/* Health & Wellness */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 border-b border-gray-300 pb-2">
+              Health & Wellness
+            </h3>
+            <ul className="space-y-3">
+              {services
+                .filter((s) =>
+                  [
+                    "weight-management",
+                    "vitamin-injections",
+                    "virtual-consultation",
+                    "in-office-consultation",
+                  ].includes(s.id)
+                )
+                .map((s) => (
+                  <li
+                    key={s.id}
+                    className={`p-3 rounded-lg transition hover:shadow-md cursor-pointer ${
+                      s.comingSoon ? "opacity-50 cursor-not-allowed" : ""
+                    }`}
+                    onClick={() => !s.comingSoon && handleSelect(s.id)}
+                  >
+                    <span className="hover:underline underline-offset-4">
+                      {s.title}
+                    </span>
+                    {s.comingSoon && (
+                      <span className="ml-2 text-xs text-red-500">
+                        (coming soon)
+                      </span>
+                    )}
+                  </li>
+                ))}
+            </ul>
           </div>
         </div>
       </section>
